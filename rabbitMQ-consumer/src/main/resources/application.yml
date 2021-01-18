@@ -1,0 +1,11 @@
+server:
+  port: 7777
+spring:
+  application:
+    name: rabbitMQ-consumer
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
